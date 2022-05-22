@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 May, 2022, 5:48:37 PM
+    Author     : User
+*/
+#room_dialog{
+    width:50%;
+    background-color:greenyellow;
+    border:1px dotted black;
+}
+#make_room{
+  border: none;
+  color: orange;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#join_room{
+  border: none;
+  color: orangered;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.names{
+    font-family: cursive;
+    font-size: 20px;
+    color: burlywood;
+    text-align: center;
+}
+.card {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #F8F4F4;
+    background-color: transparent;
+    border: thick solid #F8F8F8;
+    z-index: 0;
+    height: 150px;
+    border-radius: 15px;
+    width: 100px;
+    display: inline-block;
+}
+.cardHead {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: normal;
+    color: #F7F0F0;
+    height: 50px;
+}
+.cardBody {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: normal;
+    color: #F8F8F8;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cardFoot {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: normal;
+    color: #F8F8F8;
+    background-color: #000000;
+    text-align: right;
+    height: 50px;
+}
+
+
